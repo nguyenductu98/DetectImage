@@ -63,6 +63,7 @@ if len(indexes)>0:
 
 cv2.imwrite("rang8.jpg",img)
 
+# thu thoi ma
 
 
 cv2.destroyAllWindows()
