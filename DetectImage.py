@@ -60,9 +60,9 @@ if len(indexes)>0:
         cv2.putText(img,confidence, (x,y+20), font, 0.5, (255,255,255), 2)
         print("{}, {}".format(label, confidence))
 
-#cv2.imshow("Video", img)
+
 cv2.imwrite("rang8.jpg",img)
-#cv2.waitKey(1)
+
 
 
 cv2.destroyAllWindows()
